@@ -15,6 +15,7 @@ import electronLogo from './assets/electronlogo.svg'
 import regenLogo from './assets/RegenLogopng.png'
 import githubLogo from './assets/github_logo.svg'
 import xLogo from './assets/X_logo_2023_original.svg'
+import regenScreenshot from './assets/RegenPortfolioScreenshot.png'
 
 // Animated Text Component
 const AnimatedText = ({ text, className, delay = 0 }) => {
@@ -292,7 +293,7 @@ function App() {
           <div className="container">
             <div className="showcase-content">
               <div className="showcase-image">
-                <img className="showcase-hero" src="/src/assets/RegenPortfolioScreenshot.png" alt="RegenPortfolio Screenshot" />
+                <img className="showcase-hero" src={regenScreenshot} alt="RegenPortfolio Screenshot" />
                 <div className="powered-by">
                   <p className="powered-by-title">POWERED BY</p>
                   <div className="tech-logos">
